@@ -15,16 +15,21 @@ const Navbar = () => {
             Home
         </a>
         <ul className="nav-links flex gap-6">
-          <li>
-            <Link href="/about">
-              <span>About</span>
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact">
-              <span>Contact</span>
-            </Link>
-          </li>
+            <li>
+                <Link href="/about">
+                    <span>About</span>
+                </Link>
+            </li>
+            <li>
+                <Link href="/projects">
+                    <span>Projects</span>
+                </Link>
+            </li>
+            <li>
+                <Link href="/contact">
+                    <span>Contact</span>
+                </Link>
+            </li>
         </ul>
       </div>
     </nav>
