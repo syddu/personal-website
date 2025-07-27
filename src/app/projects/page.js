@@ -18,45 +18,57 @@ export default function Home() {
               src="/appinventor.jpeg"
               width={300}
               height={300}
-              alt="Headshot"
+              alt="App Inventor"
             />
             MIT App Inventor
           </a>
           <div className="flex flex-col gap-4">
+            <a className="flex flex-col gap-4 items-center"
+            href="/projects/music">
             <Image
-              src="/project2.jpeg"
+              src="/music.jpg"
               width={300}
               height={300}
-              alt="Project 2"
+              alt="Music Composition"
             />
-            Project 2
+            Music Composition
+            </a>
           </div>
           <div className="flex flex-col gap-4">
+            <a className="flex flex-col gap-4 items-center"
+            href="/projects/mltutor">
             <Image
-              src="/project3.jpeg"
+              src="/eecs.png"
               width={300}
               height={300}
-              alt="Project 3"
+              alt="ML Tutor"
             />
-            Project 3
+            RAG Machine Learning Tutor
+            </a>
           </div>
           <div className="flex flex-col gap-4">
+            <a className="flex flex-col gap-4 items-center"
+            href="/projects/comicgenerator">
             <Image
-              src="/prject4.jpeg"
+              src="/julian.webp"
               width={300}
               height={300}
-              alt="Project 4"
+              alt="Comic Generator"
             />
-            Project 4
+            AI Comic Strip Creator
+            </a>
           </div>
           <div className="flex flex-col gap-4">
+            <a className="flex flex-col gap-4 items-center"
+            href="/projects/iosapp">
             <Image
-              src="/project5.jpeg"
+              src="/trivia.png"
               width={300}
               height={300}
-              alt="Project 5"
+              alt="iOS App"
             />
-            Project 5
+            iOS Trivia Game
+            </a>
           </div>
         </div>
       </main>

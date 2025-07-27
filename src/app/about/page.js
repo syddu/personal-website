@@ -13,7 +13,7 @@ export default function Home() {
           height = {300}
           alt = "Headshot"
         />
-        <p className="font-mono text-center sm:text-left">
+        <p className="bg-background font-mono text-center sm:text-left">
           I am a sophomore at MIT studying Computer Science (6-3) and minoring in Statistics and Data Science.
         </p>
       </main>

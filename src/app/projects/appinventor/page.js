@@ -13,8 +13,11 @@ export default function Home() {
         height = {300}
         alt = "App Inventor"
         />
-        <p className="font-mono text-center sm:text-left">
-          MIT App Inventor is a block-based programming environment for creating mobile apps.
+        <p className="bg-background font-mono text-center sm:text-left text-foreground">
+          MIT App Inventor is an open-source, block-based programming platform that empowers people around the world—many with no prior coding experience—to build mobile apps. It has reached over 15 million users in 195 countries, supporting everything from education to community impact projects. As an undergraduate research assistant on the App Inventor team, I started on the Education Team by developing a chat app using App Inventor’s blocks and TinyDB for local storage. I now work on the Development Team, contributing to debugging and iOS support. This fall, I’ll be part of Aptly, a new research initiative using AI to help users generate apps from natural language instructions.
+        </p>
+        <p className="bg-background font-mono text-center sm:text-left text-foreground">
+          Skills: Swift, XCode, software testing, debugging, version control (Git), AI, reinforcement learning, open-source contribution, block-based programming
         </p>
       </main>
     </div>

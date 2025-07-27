@@ -28,11 +28,11 @@ export default function BackgroundCanvas() {
     renderer.setSize(window.innerWidth, window.innerHeight);
     camera.position.z = 15;
 
-    const geometry = new THREE.BoxGeometry(10,3,3);
-    const material = new THREE.MeshPhongMaterial({ color: 0xffffff, shininess: 10 });
-    const cube = new THREE.Mesh(geometry, material);
-    cube.position.set(-0,-7,-5);
-    scene.add(cube);
+    // const geometry = new THREE.BoxGeometry(10,3,3);
+    // const material = new THREE.MeshPhongMaterial({ color: 0xffffff, shininess: 10 });
+    // const cube = new THREE.Mesh(geometry, material);
+    // cube.position.set(-0,-7,-5);
+    // scene.add(cube);
 
     const middleLight = new THREE.PointLight(0xfffff, 150);
     middleLight.position.set(0, 0, 0);
@@ -90,8 +90,8 @@ export default function BackgroundCanvas() {
 
     const animate = () => {
       requestAnimationFrame(animate);
-      cube.rotation.x += 0.01;
-      cube.rotation.y += 0.01;
+    //   cube.rotation.x += 0.01;
+    //   cube.rotation.y += 0.01;
       fireflies.forEach((f) => {
         f.rotation.y += 0.002;
         f.rotation.x += 0.0015;
