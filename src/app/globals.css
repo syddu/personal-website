@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #c8caff;
-  --foreground: #2f2f2f;
+  --background: #0a0e7b;
+  --foreground: #ffefce;
 }
 
 @theme inline {
@@ -17,6 +17,26 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+canvas.three-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  display: block;
 }
 
 @keyframes scroll {
@@ -34,7 +54,10 @@
 
 
 body {
-  background: var(--background);
+  background: transparent;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+h1, p {
+  text-shadow: 0 0 8px rgba(0,0,0,1);
 }
